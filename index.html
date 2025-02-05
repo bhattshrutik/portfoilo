@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrutik Bhatt | Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .nav-link-active {
+            color: #3B82F6;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+    <!-- Navbar Section -->
+<nav class="fixed top-0 left-0 right-0 bg-gray-800 p-6 z-50">
+    <div class="max-w-screen-xl mx-auto">
+        <ul class="flex justify-center space-x-8 text-lg">
+            <li><a href="#home" class="nav-link hover:text-blue-500">Home</a></li>
+            <li><a href="#about" class="nav-link hover:text-blue-500">About</a></li>
+            <li><a href="#projects" class="nav-link hover:text-blue-500">Projects</a></li>
+            <li><a href="#skills" class="nav-link hover:text-blue-500">Skills</a></li>
+            <li><a href="#experience" class="nav-link hover:text-blue-500">Experience</a></li>
+            <li><a href="#contact" class="nav-link hover:text-blue-500">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex flex-col justify-center items-center text-center space-y-4 pt-24">
+        <h1 class="text-5xl font-extrabold">Hi, I'm Shrutik Bhatt</h1>
+        <p class="text-xl font-light">Data Analyst</p>
+        <div class="flex space-x-6">
+            <!-- Contact Me Button -->
+            <a href="#contact" class="bg-blue-500 text-white py-2 px-6 rounded-lg text-lg">Connect with Me</a>
+            
+            <!-- Download CV Button -->
+            <a href="static/Resume.pdf" download class="bg-gray-700 text-white py-2 px-6 rounded-lg text-lg flex items-center space-x-2 hover:bg-gray-600">
+                <i class="fas fa-download"></i> 
+                <span>Download CV</span>
+            </a>
+    
+            <!-- Social Media Links (Instagram and LinkedIn) -->
+            <div class="flex space-x-4">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/shrutik-bhatt-9199b91b1" target="_blank" class="text-3xl text-blue-500 hover:text-blue-400">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-800">
+        <h2 class="text-4xl text-center font-semibold mb-10">About Me</h2>
+        <div class="max-w-4xl mx-auto text-center">
+            <p class="text-lg">I'm a Data Analyst with a passion for transforming data into actionable insights. Currently, I'm pursuing a Bachelor's in Computer Science & Engineering, with hands-on experience in data analysis, visualization, and statistical methods to drive informed decision-making.</p>
+            <p class="text-lg">When I'm not analyzing, you'll find me traveling, engage in cricket, or capturing moments through photography. I'm actively seeking new opportunities to apply my skills and grow professionally.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20">
+        <h2 class="text-4xl text-center font-semibold mb-10 text-white">My Data Analysis Projects</h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            
+            <!-- Project 1: Sales Data Analysis -->
+            <div class="border-2 border-gray-700 p-6 space-y-4 hover:bg-gray-700 transition duration-300">
+                <h3 class="text-2xl font-semibold text-white">Sales Data Analysis</h3>
+                <p class="text-gray-400">Analyzed sales data to identify trends, forecast future sales, and optimize inventory management using Python and SQL.</p>
+                <div class="space-x-4">
+                    <span class="text-gray-400">Python</span>
+                    <span class="text-gray-400">SQL</span>
+                    <span class="text-gray-400">Power BI</span>
+                </div>
+                <a href="https://app.powerbi.com/groups/me/reports/f1e19315-0f3b-4393-ae1c-a7ec51b2baed/95384d738bf92c53068e?redirectedFromSignup=1&experience=power-bi"class="bg-blue-500 text-white py-2 px-6 rounded-lg text-lg inline-block mt-4 hover:bg-blue-400">View Project</a>
+            </div>
+    
+            <!-- Project 2: YouTube Data Analysis -->
+            <div class="border-2 border-gray-700 p-6 space-y-4 hover:bg-gray-700 transition duration-300">
+                <h3 class="text-2xl font-semibold text-white">YouTube Data Analysis</h3>
+                <p class="text-gray-400">Analyzed YouTube video performance data to identify key factors affecting viewer engagement and optimize content strategy.</p>
+                <div class="space-x-4">
+                    <span class="text-gray-400">Python</span>
+                    <span class="text-gray-400">Pandas</span>
+                    <span class="text-gray-400">Matplotlib</span>
+                </div>
+                <a href="static/Youtube.pdf" class="bg-blue-500 text-white py-2 px-6 rounded-lg text-lg inline-block mt-4 hover:bg-blue-400">View Project</a>
+            </div>
+            
+        </div>
+    </section>    
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-800">
+        <h2 class="text-4xl text-center font-semibold mb-10">My Skills</h2>
+        <div class="max-w-4xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    PowerBI
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    Python
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    HTML
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    CSS
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    React.js
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    JavaScript
+                </button>
+            </div>
+            <div class="text-center">
+                <button class="bg-transparent text-gray-300 border-2 border-gray-500 px-4 py-2 rounded-lg text-lg hover:bg-gray-600 hover:text-white transition duration-300">
+                    SQL
+                </button>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-900">
+        <h2 class="text-4xl text-center font-semibold mb-10 text-white">My Journey</h2>
+        <div class="max-w-screen-xl mx-auto">
+            <!-- Experience Items -->
+            
+            <!-- Experience Item 1 -->
+            <div class="mb-16">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:bg-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-200">Diploma in Computer Engineering</h3>
+                    <p class="text-gray-400">Graduated with an 8.62 CGPA, igniting my spark for data and web development.</p>
+                    <p class="text-gray-400 mt-4">June 2019 - July 2022</p>
+                </div>
+            </div>
+    
+            <!-- Experience Item 2 -->
+            <div class="mb-16">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:bg-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-200">Data Analyst Intern</h3>
+                    <p class="text-gray-400">Collaborating on data analytics projects using SQL, Python and PowerBI.</p>
+                    <p class="text-gray-400 mt-4">Dec 2024 - Present</p>
+                </div>
+            </div>
+    
+            <!-- Experience Item 3 -->
+            <div class="mb-16">
+                <div class="bg-gray-800 p-6 rounded-lg shadow-lg transform transition duration-300 hover:scale-105 hover:bg-gray-700">
+                    <h3 class="text-2xl font-semibold text-gray-200">Bachelors of Technology in Computer Science & Engineering</h3>
+                    <p class="text-gray-400">Pursuing advanced studies in Data Analysis, Machine Learning, and Data Visualization, with a strong focus on SQL, Python, and statistical methods to derive insights from large datasets and inform business decisions.</p>
+                    <p class="text-gray-400 mt-4">August 2022 - Present</p>
+                </div>
+            </div>
+        </div>
+    </section>    
+        
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-800">
+        <h2 class="text-4xl text-center font-semibold mb-10">Contact Me</h2>
+        <form action="/submit" method="post" class="max-w-xl mx-auto space-y-6">
+            <input type="email" name="email" placeholder="Your Email" class="w-full p-4 rounded-md bg-gray-700 text-white placeholder-gray-400" required>
+            <textarea name="message" placeholder="Your Message" class="w-full p-4 rounded-md bg-gray-700 text-white placeholder-gray-400" rows="6" required></textarea>
+            <button type="submit" class="w-full bg-blue-500 text-white py-3 rounded-md text-lg">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 py-6 text-center text-gray-400">
+        <p>&copy; 2025 Shrutik Bhatt. All Rights Reserved.</p>
+        <p>Built with ❤️ by Shrutik Bhatt</p>
+    </footer>    
+
+    <!-- JavaScript to Handle Navbar Active Class on Scroll -->
+    <script>
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.nav-link');
+            let currentSection = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-link-active');
+                if (link.getAttribute('href') === `#${currentSection}`) {
+                    link.classList.add('nav-link-active');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
