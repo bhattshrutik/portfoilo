@@ -39,4 +39,5 @@ def submit():
             return f"An error occurred while sending the email: {e}"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=5001)  # Change to a different port like 5001
+
