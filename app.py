@@ -25,7 +25,7 @@ def submit():
         user_message = request.form["message"]
         
         # Admin's email address
-        admin_email = "bhattshrutik36@example.com"  # Replace with the admin's email
+        admin_email = "bhattshrutik36@gmail.com"  # Replace with the admin's email
 
         # Create the email message
         msg = Message("New Message from Portfolio Contact Form", recipients=[admin_email])
